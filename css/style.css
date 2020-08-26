@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', serif;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  padding: 10px 25%;
+}
+
+.nav-item a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #555555;
+  border-bottom: 1.5px solid #FF5ACD;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+aside {
+  float: left;
+  width: 250px;
+  height: 100vh;
+  position: relative;
+}
+
+aside:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+figure {
+  text-align: center;
+  position: fixed;
+  padding: 10px 50px;
+  bottom: 0;
+}
+
+figure img {
+  filter: grayscale(100%);
+  width: 80px;
+}
+
+main h1 {
+  font-size: 58px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+main span {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+main p {
+  max-width: 800px;
+}
+
+main hr {
+  width: 45%;
+  border: 0;
+  height: 1.5px;
+  background: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-image: -webkit-linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-image:    -moz-linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-image:     -ms-linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-image:      -o-linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+aside, main {
+  padding-top: 8%;
+}
+
+.box {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  transform: rotateZ(45deg);
+}
+
+.circle {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+}
+
+.gradient-green {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.gradient-orange {
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
